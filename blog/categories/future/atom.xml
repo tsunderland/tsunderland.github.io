@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: future | BITFUTURISTIC]]></title>
+  <link href="http://tsunderland.github.io/blog/categories/future/atom.xml" rel="self"/>
+  <link href="http://tsunderland.github.io/"/>
+  <updated>2014-09-05T14:48:46+10:00</updated>
+  <id>http://tsunderland.github.io/</id>
+  <author>
+    <name><![CDATA[Trevor Sunderland]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Moving to Github]]></title>
+    <link href="http://tsunderland.github.io/blog/2014/09/05/moving-to-github/"/>
+    <updated>2014-09-05T14:36:29+10:00</updated>
+    <id>http://tsunderland.github.io/blog/2014/09/05/moving-to-github</id>
+    <content type="html"><![CDATA[<h2 id="time-for-a-change">Time for a change</h2>
+<p>Thank you to GoDaddy for your wonderful service, it’s been great. My moving to GitHub was an economic decision. Free web hosting for my static site, or pay &gt; $100 per year to stay where I was. For a site that gets very little traffic it was a no-brainer.</p>
+
+<p>Thank you GitHub! Now I’ll have that much more money for my projects! Now…to work on that time issue. </p>
+]]></content>
+  </entry>
+  
+</feed>
