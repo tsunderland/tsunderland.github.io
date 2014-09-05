@@ -5,11 +5,12 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>BITFUTURISTIC</title>
+  <title>Python Memory - BITFUTURISTIC</title>
   <meta name="author" content="Trevor Sunderland">
 
   
-  <meta name="description" content="Hi, my name is Trevor Sunderland and this is my little corner of the internet. I am a software engineer with an electronics background who loves a &hellip;">
+  <meta name="description" content="Sleep deprivation can prove useful…
+Finally my sleep deprivation has proven useful, I’ve learned a new python feature! Because you’re probably more &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -18,7 +19,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://tsunderland.github.io">
+  <link rel="canonical" href="http://tsunderland.github.io/blog/2014/08/21/python-memory">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="BITFUTURISTIC" type="application/atom+xml">
@@ -112,22 +113,113 @@
   <div id="main">
     <div id="content">
       <div>
-<article role="article">
+<article class="hentry" role="article">
   
-  <p><img style="float:left" src="/images/jayden&amp;i.png" />
-Hi, my name is Trevor Sunderland and this is my little corner of the internet. I am a software engineer with an electronics background who loves a challenge. It is my goal to take every project I work on to the next level; to make it a bit futuristic. I’m always looking for the next challenge to tackle, so if you’ve got a great idea or a new feature you would like to see developed drop me an <a href="tsunderland@bitfuturistic.com">email</a>.</p>
+  <header>
+    
+      <h1 class="entry-title">Python Memory</h1>
+    
+    
+      <p class="meta">
+        
 
-<p>Please have a look around and let me know what you think.You can find more information about my contracting services on my <a href="/services.html">Services</a> page. If you’re interested in some of my projects or perspectives on life, please feel free to peruse my <a href="/blog/">Blog</a> posts. Or to just learn a little bit more about me, you can always have a look at the <a href="/about.html">About</a> page.</p>
 
-<p>If you would like to get in contact with me for whatever reason, I can be reached at tsunderland@bitfuturistic.com. </p>
+
+
+
+
+
 
   
-    <footer>
+
+
+<time datetime="2014-08-21T15:21:56+10:00" pubdate data-updated="true">Aug 21<sup>st</sup>, 2014</time>
+        
+         | <a href="#disqus_thread">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><h2 id="sleep-deprivation-can-prove-useful">Sleep deprivation can prove useful…</h2>
+<p>Finally my sleep deprivation has proven useful, I’ve learned a new python feature! Because you’re probably more interested in the python feature than my sob story about getting no sleep (again) I’ll get to the point.</p>
+
+<p>In the Python interpreter the single underscore ‘_’ returns the last answer that was returned on the interpreter. It will probably make more sense if I just show you…(especially in my sleep deprived state.)
+<code>
+&gt;&gt;&gt; 4
+4
+&gt;&gt;&gt; _
+4
+</code>
+This is an interesting feature. But you need to remember that it will be evaluated again at the end of each output. This means that if you string together a number of lines, all of which would return their answer to the interpreter and not a stored value, you’ll be working on the previous lines result for each ‘_’ used.
+To better understand it, try this:
+<code>
+&gt;&gt;&gt;4
+&gt;&gt;&gt;_
+&gt;&gt;&gt;_*_;_*_;_/4
+</code></p>
+
+<p>See what I mean?</p>
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">Trevor Sunderland</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-08-21T15:21:56+10:00" pubdate data-updated="true">Aug 21<sup>st</sup>, 2014</time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/deprivation/'>deprivation</a>, <a class='category' href='/blog/categories/python/'>python,</a>, <a class='category' href='/blog/categories/sleep/'>sleep</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://tsunderland.github.io/blog/2014/08/21/python-memory/" data-via="" data-counturl="http://tsunderland.github.io/blog/2014/08/21/python-memory/" >Tweet</a>
+  
+  
+  
+    <div class="fb-like" data-send="true" data-width="450" data-show-faces="false"></div>
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2014/07/02/product-review-the-spark-io-board/" title="Previous Post: Product Review - The Spark IO Board">&laquo; Product Review - The Spark IO Board</a>
       
       
-    </footer>
-  
+    </p>
+  </footer>
 </article>
+
+  <section>
+    <h1>Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+  </section>
 
 
 </div>
@@ -170,6 +262,22 @@ Hi, my name is Trevor Sunderland and this is my little corner of the internet. I
 
 </footer>
   
+
+<script type="text/javascript">
+      var disqus_shortname = 'bitfuturistic';
+      
+        
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://tsunderland.github.io/blog/2014/08/21/python-memory/';
+        var disqus_url = 'http://tsunderland.github.io/blog/2014/08/21/python-memory/';
+        var disqus_script = 'embed.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = 'http://' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
 
 
 

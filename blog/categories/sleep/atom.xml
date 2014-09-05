@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: sleep | BITFUTURISTIC]]></title>
+  <link href="http://tsunderland.github.io/blog/categories/sleep/atom.xml" rel="self"/>
+  <link href="http://tsunderland.github.io/"/>
+  <updated>2014-09-05T13:21:43+10:00</updated>
+  <id>http://tsunderland.github.io/</id>
+  <author>
+    <name><![CDATA[Trevor Sunderland]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Python Memory]]></title>
+    <link href="http://tsunderland.github.io/blog/2014/08/21/python-memory/"/>
+    <updated>2014-08-21T15:21:56+10:00</updated>
+    <id>http://tsunderland.github.io/blog/2014/08/21/python-memory</id>
+    <content type="html"><![CDATA[<h2 id="sleep-deprivation-can-prove-useful">Sleep deprivation can prove useful…</h2>
+<p>Finally my sleep deprivation has proven useful, I’ve learned a new python feature! Because you’re probably more interested in the python feature than my sob story about getting no sleep (again) I’ll get to the point.</p>
+
+<p>In the Python interpreter the single underscore ‘_’ returns the last answer that was returned on the interpreter. It will probably make more sense if I just show you…(especially in my sleep deprived state.)
+<code>
+&gt;&gt;&gt; 4
+4
+&gt;&gt;&gt; _
+4
+</code>
+This is an interesting feature. But you need to remember that it will be evaluated again at the end of each output. This means that if you string together a number of lines, all of which would return their answer to the interpreter and not a stored value, you’ll be working on the previous lines result for each ‘_’ used.
+To better understand it, try this:
+<code>
+&gt;&gt;&gt;4
+&gt;&gt;&gt;_
+&gt;&gt;&gt;_*_;_*_;_/4
+</code></p>
+
+<p>See what I mean?</p>
+]]></content>
+  </entry>
+  
+</feed>
