@@ -4,7 +4,7 @@
   <title><![CDATA[BITFUTURISTIC]]></title>
   <link href="http://tsunderland.github.io/atom.xml" rel="self"/>
   <link href="http://tsunderland.github.io/"/>
-  <updated>2014-09-28T22:22:47+10:00</updated>
+  <updated>2014-11-25T17:37:06+11:00</updated>
   <id>http://tsunderland.github.io/</id>
   <author>
     <name><![CDATA[Trevor Sunderland]]></name>
@@ -12,6 +12,39 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Python and RigolDG1022]]></title>
+    <link href="http://tsunderland.github.io/blog/2014/11/24/python-and-rigoldg1022/"/>
+    <updated>2014-11-24T11:21:03+11:00</updated>
+    <id>http://tsunderland.github.io/blog/2014/11/24/python-and-rigoldg1022</id>
+    <content type="html"><![CDATA[<h3 id="automated-testing">Automated testing</h3>
+<p>After changing the settings on your function generator and switching the next button for the 100th time you start to become a big fan of automated testing. The ability to test a given process/project in either hardware or software without significant user action is a time saver, and an incredible tool. The ability to get results out of your tests in minutes rather than hours gives you more time to get the design right.</p>
+
+<p>My team has been using the Rigol DG1022 and DS1000 series scopes for testing hardware and software. The issue is that they’re wasting too much time getting settings right, or reading values when they could be spending their time doing development. To help the be more productive, I’ve been working on some Rigol usbtmc drivers. As it stands right now, it works well with Linux. I’m in the middle of resolving some issues with Windows and Mac (still need to test the result on OS X). </p>
+
+<p>Why another attempt to do this? I’ve had the code sitting around from previous projects and it’s not that complicated. Ideally, I would like to create a NIVisa free interface for all systems. It’s a fantastic bit of kit, but it’s a pain in the neck to get a reliable response on our Windows machines, and I’m really not impressed.</p>
+
+<!-- more -->
+<p>### New Toys On The Way ###
+Another reason I want the ability to add scripting interfaces to these tools; the fantastically priced DS1054z! I’ve ordered mine and promise to put some pretty pictures up once it’s delivered.</p>
+
+<h3 id="hence-the-github-project">Hence the Github Project…</h3>
+<p>I’ve created a python 2.7 project (using PyQt 4.8) to allow the scripting of the DG1022 function generator. I’ve also developed a basic GUI using PyQt. Feel free to have a look and give me some constructive feedback.</p>
+
+<p><a href="https://github.com/tsunderland/RigolUSBTMC_Python">https://github.com/tsunderland/RigolUSBTMC_Python</a></p>
+
+<p>I’m currently testing with the NI-Visa libraries as my team needs to use the tool on Windows. When I get the chance to replace the visa libraries I’ll be sure to include the update.</p>
+
+<h3 id="issues-ive-noticed">Issues I’ve noticed</h3>
+<p>Channel 2 on the Rigol Function generator requires a function update after sending on update voltage command. I’ve no idea why this is, but unfortunately that’s the way it works for now.</p>
+
+<p>On Windows, some people are unable to control the output on either channel using the Visa libraries.</p>
+
+<h4 id="please-add-on-and-help-me-make-a-decent-tool">Please add on and help me make a decent tool</h4>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Favourite Bible Verse]]></title>
